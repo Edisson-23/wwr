@@ -1,0 +1,123 @@
+:root {
+    --primary-color: #48BEFF;       
+    --secondary-color: #3DFAFF;     
+    --accent-color: #43C59E;        
+    --text-color: #333;
+    --background-color: #fff;
+    --header-bg: #264653;
+    --footer-bg: #1b4d3e;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Merriweather', serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--header-bg);
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  header img {
+    max-height: 60px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.75rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: var(--accent-color);
+  }
+  
+  .hero {
+    position: relative;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero article {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  
+  .hero article img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  section img {
+    width: 100%;
+    max-width: 220px;
+    margin: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  footer {
+    background-color: var(--footer-bg);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer a img {
+    text-decoration: none;
+    border: none;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+  }
+  
+  footer a img:hover {
+    filter: grayscale(50%);
+  }
+  
